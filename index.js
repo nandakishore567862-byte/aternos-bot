@@ -38,7 +38,7 @@ function startBotLoop() {
   bot = mineflayer.createBot({
     host: IP,
     port: PORT,
-    username
+    username:
   });
 
   bot.on('spawn', () => {
