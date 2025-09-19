@@ -36,9 +36,9 @@ function startBotLoop() {
   log(`🔁 Connecting as ${username}...`);
 
   bot = mineflayer.createBot({
-    host: IP,
-    port: PORT,
-    username:
+    host: heavenoneblock.progamer.me,
+    port: 19132,
+    username: AFKBOT
   });
 
   bot.on('spawn', () => {
